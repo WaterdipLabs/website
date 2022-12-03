@@ -1,0 +1,28 @@
+.fcard{
+    background: rgba(251, 251, 251, 0.13);
+    border-radius: 14px;
+    width: 350px;
+    height: 400px;
+    padding: 20px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.fcard h1{
+    text-align: start;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+}
+.fcard p{
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.01em;
+}
+.fcard img{
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+}
