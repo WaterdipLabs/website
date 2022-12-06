@@ -1,0 +1,28 @@
+.performance-screen{
+    width: 100%;
+    padding-top: 30vh;
+    background: #040D21;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 150px;
+}
+.performance-text h1{
+    margin: auto;
+    text-align: center;
+    width: 60vw;
+    font-weight: 500;
+    color: white;
+}
+.span-bold{
+    font-weight: 800;
+}
+.cards{
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
