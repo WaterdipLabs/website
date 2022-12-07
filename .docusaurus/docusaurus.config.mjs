@@ -58,8 +58,7 @@ export default {
           "position": "right"
         },
         {
-          "type": "doc",
-          "docId": "intro",
+          "href": "https://waterdipai.github.io/mkdocs/",
           "position": "right",
           "label": "Docs"
         },

@@ -42,6 +42,9 @@ h1{
     font-weight: 600;
     font-size: 16px;
 }
+.start:hover{
+    background: #0466C8;
+}
 .hero-buttons .request{
     color: #0C233A;
     padding: 15px 18px;
@@ -53,8 +56,12 @@ h1{
     font-weight: 600;
     font-size: 16px;
 }
+.request:hover{
+    background: #0466C8;
+    color: white;
+    border: 2px solid transparent;
+}
 .hero-image{
-    position: relative;
     overflow: visible;
     filter: drop-shadow(10px 10px 1em white);
 }
@@ -62,4 +69,38 @@ h1{
     width: 80vw;
     height: 70vh;
     object-fit: contain;
+}
+@media only screen and (max-width: 996px) {
+    
+    .hero-text h1{
+        font-size: 35px;
+        color: white;
+    }
+    
+
+}
+@media only screen and (max-width: 600px){
+    .hero-text{
+        text-align:start;
+        width: 80vw;
+    }
+    .hero-buttons{
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .hero-buttons button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-image img{
+        display: none;
+    }
+}
+@media only screen and (max-height: 650px) {
+    .hero-image img{
+        display: none;
+    }
 }

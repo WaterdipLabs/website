@@ -1,13 +1,12 @@
 .feature-screen{
     width: 100%;
-    padding-top: 30vh;
+    padding-top: 20vh;
     padding-bottom: 20vh;
     background: #040D21;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
     gap: 150px;
 }
 .feature-screen h1{
@@ -15,71 +14,17 @@
     font-weight: 500;
     color: white;
 }
+.lol{
+    width: 80vw;
+    margin: 0 auto;
+}
 .carousel{
     width: 80vw;
 }
+
 .slider{
     margin: auto;
 }
 .slide{
-    width: 300px;
-    height: 450px;
-}
-.carousel__slide{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 300px;
-    height: 450px;
-}
-.carousel__inner-slide{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.slid-flex{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-}
-.slid-dot-flex{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100px;
-    gap: 10px;
-}
-.carousel__dot{
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    
-    background: #FFFFFF;
-}
-.carousel__dot--selected{
-    width: 23px;
-    height: 15px;
-    background: #0466C8;
-    border-radius: 5px;
-}
-.carousel__back-button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: transparent;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: #FFFFFF;;
-}
-.carousel__next-button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: transparent;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: #0466C8;
+    height: 450px;
 }
