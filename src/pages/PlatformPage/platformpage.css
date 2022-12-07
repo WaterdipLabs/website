@@ -1,6 +1,6 @@
 .platform-screen{
     width: 100%;
-    padding-top: 30vh;
+    padding-top: 20vh;
     background: #040D21;
     color: white;
     display: flex;
@@ -22,4 +22,25 @@
     margin: auto;
     height: 70vh;
     object-fit: contain;
+}
+@media only screen and (max-width: 996px) {
+    .platform-screen h1{
+        font-size: 25px;
+        color: white;
+        width: 80vw;
+    }
+}
+@media only screen and (max-width: 600px){
+    .platform-screen{
+        padding-top: 10vh;
+        gap: 75px;
+    }
+    .platform-screen h1{
+        text-align:left;
+        align-items: center;
+        width: 80vw;
+    }
+    .platform-screen h1{
+        text-align:left;
+    }
 }
