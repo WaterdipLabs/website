@@ -63,12 +63,14 @@ h1{
 }
 .hero-image{
     overflow: visible;
-    /* filter: drop-shadow(10px 10px 1em white); */
 }
-.hero-image img{
+.hero-image .desk{
     width: 80vw;
     height: 70vh;
     object-fit: contain;
+}
+.hero-image .mobile{
+    display: none;
 }
 @media only screen and (max-width: 996px) {
     .hero-text h1{
@@ -77,12 +79,26 @@ h1{
     }
 }
 @media only screen and (max-width: 600px){
+    .hero-screen{
+        gap: 0 px;
+        padding-bottom: 150px;
+    }
     .hero-text{
-        text-align:start;
+        margin-top: 25px;
         width: 80vw;
     }
+    .hero-text h1{
+        font-size: 24px;
+        letter-spacing: 0.01em;
+        line-height: 150%;
+    }
+    .hero-text p{
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.01em;
+    }
     .hero-buttons{
-        width: 80vw;
+        width: auto;
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -92,12 +108,22 @@ h1{
         justify-content: center;
         align-items: center;
     }
-    .hero-image img{
+    .hero-image .desk{
         display: none;
+    }
+    .hero-image .mobile{
+        display: block;
+        width: 80vw;
+        object-fit: contain;
     }
 }
 @media only screen and (max-height: 650px) {
-    .hero-image img{
+    .hero-image .desk{
         display: none;
+    }
+    .hero-image .mobile{
+        display: block;
+        width: 50vw;
+        object-fit: contain;
     }
 }

@@ -10,13 +10,15 @@ export default function PerformancePage(props): JSX.Element {
             <div className="performance-text">
                 <h1>Take care of your Business KPIs with Waterdip Model <span className="span-bold">Performance Monitoring</span> Platform</h1>
             </div>
-            <Fade bottom>
+            
                 <div className="cards">
                     {Performances.map((performance) =>(
-                        <Card img={performance.img} h1={performance.h1} p={performance.p} />
+                        <Fade bottom>
+                            <Card img={performance.img} h1={performance.h1} p={performance.p} />
+                        </Fade>
+                        
                     ))}
                 </div>
-            </Fade>
 
         </div>
     )

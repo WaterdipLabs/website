@@ -2,6 +2,7 @@ import React from "react";
 import './heropage.css';
 import clsx from "clsx";
 import dash from '../../assets/dashboard.png';
+import dashMobile from '../../assets/DashMobile.png';
 
 export default function HeroPage(props): JSX.Element{
     return (
@@ -15,7 +16,8 @@ export default function HeroPage(props): JSX.Element{
                 <button className="request">Request a demo</button>
             </div>
             <div className="hero-image">
-                <img src={dash} alt="dashboard" />
+                <img src={dash} className="desk" alt="dashboard" />
+                <img src={dashMobile} className="mobile" alt="dashboard" />
             </div>
         </div>
     )
