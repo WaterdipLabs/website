@@ -3,7 +3,7 @@ import './performancepage.css';
 import clsx from "clsx";
 import Card from "@site/src/components/Card/Card";
 import Fade from 'react-reveal/Fade';
-import { Performances } from "./data";
+import { Performances } from "../../utils/data";
 export default function PerformancePage(props): JSX.Element {
     return (
         <div className="performance-screen">
