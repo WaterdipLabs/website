@@ -714,13 +714,18 @@
       },
       {
         "type": "jsx",
-        "permalink": "/PlatformPage/PlatformPage",
-        "source": "@site/src/pages/PlatformPage/PlatformPage.tsx"
+        "permalink": "/PerformancePage/data",
+        "source": "@site/src/pages/PerformancePage/data.ts"
       },
       {
         "type": "jsx",
         "permalink": "/PerformancePage/PerformancePage",
         "source": "@site/src/pages/PerformancePage/PerformancePage.tsx"
+      },
+      {
+        "type": "jsx",
+        "permalink": "/PlatformPage/PlatformPage",
+        "source": "@site/src/pages/PlatformPage/PlatformPage.tsx"
       }
     ]
   },

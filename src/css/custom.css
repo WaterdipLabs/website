@@ -58,16 +58,20 @@
 .navbar__items a{
   color: white;
   font-weight: 600;
-  font-size:18px
+  font-size:18px;
 }
 .navbar__items a:hover{
-  color: #0C233A
+  color: #0466C8;
+}
+.footer__link-item:hover{
+  color: #0466C8;
 }
 .github-link{
   transition: all 0.3s ease-in-out;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
+  width: 157px;
   gap: 5px;
   background: #0C233A;
   border-radius: 8px;
@@ -93,6 +97,10 @@ a:hover{
   text-decoration: none;
   color: white;
 }
+.follow-us{
+  display: flex;
+  gap: 10px;
+}
 .footer{
   background: #040D21;
 }
@@ -109,9 +117,24 @@ a:hover{
 [class*=iconExternalLink] {
   display: none;
 }
+.navbar-sidebar{
+  background-color: black;
+  color: white;
+}
+.menu__link{
+  color: white;
+}
+.navbar__title{
+  color: white;
+}
+.clean-btn{
+  color: gray;
+}
 @media only screen and (max-width: 996px) {
   .navbar__inner{
-    padding-left: 10vw;
+    padding: 10px;
+    padding-left: 5vw;
     justify-content: space-between;
   }
 }
+

@@ -11,9 +11,9 @@
 .signup h1{
     margin: auto;
     text-align: center;
-    width: 80vw;
+    width: 60vw;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 30px;
     color: white;
 }
 .signup-signup{
@@ -44,6 +44,7 @@
         font-weight: 600;
         font-size: 25px;
         color: white;
+        width: 80vw;
     }
     .signup-signup{
         display: flex;

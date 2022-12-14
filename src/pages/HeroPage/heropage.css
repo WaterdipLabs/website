@@ -63,7 +63,7 @@ h1{
 }
 .hero-image{
     overflow: visible;
-    filter: drop-shadow(10px 10px 1em white);
+    /* filter: drop-shadow(10px 10px 1em white); */
 }
 .hero-image img{
     width: 80vw;
@@ -71,13 +71,10 @@ h1{
     object-fit: contain;
 }
 @media only screen and (max-width: 996px) {
-    
     .hero-text h1{
         font-size: 35px;
         color: white;
     }
-    
-
 }
 @media only screen and (max-width: 600px){
     .hero-text{

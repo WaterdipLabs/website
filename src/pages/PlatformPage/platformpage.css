@@ -18,16 +18,36 @@
 .span-bold{
     font-weight: 800;
 }
-.platform-screen img{
+.platform-screen .desktop-waterdip{
     margin: auto;
-    height: 70vh;
+    height: auto;
+    max-width: 80vw;
     object-fit: contain;
+}
+.platform-screen .mobile-waterdip{
+    display: none;
 }
 @media only screen and (max-width: 996px) {
     .platform-screen h1{
         font-size: 25px;
         color: white;
         width: 80vw;
+    }
+    .platform-screen .desktop-waterdip{
+        display: none;
+    }
+    .platform-screen .mobile-waterdip{
+        display: block;
+        margin: auto;
+        max-width: 50vw;
+        object-fit: contain;
+    }
+    
+}
+@media only screen and (max-width: 800px) {
+    .platform-screen .mobile-waterdip{
+        max-width: 65vw;
+        object-fit: contain;
     }
 }
 @media only screen and (max-width: 600px){
@@ -36,11 +56,15 @@
         gap: 75px;
     }
     .platform-screen h1{
-        text-align:left;
         align-items: center;
         width: 80vw;
     }
     .platform-screen h1{
         text-align:left;
     }
+    .platform-screen .mobile-waterdip{
+        max-width: 90vw;
+        object-fit: contain;
+    }
+    
 }

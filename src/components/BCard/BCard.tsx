@@ -5,8 +5,10 @@ import clsx from "clsx";
 export default function BCard(props): JSX.Element {
     return(
         <div className="bcard">
-            <h1>{props.h1}</h1>
-            <p>{props.p}</p>
+            <div className="bcardbg">
+                <h1>{props.h1}</h1>
+                <p>{props.p}</p>
+            </div>
         </div>
     )
 }
