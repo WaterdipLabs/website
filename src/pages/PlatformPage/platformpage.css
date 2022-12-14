@@ -60,7 +60,8 @@
         width: 80vw;
     }
     .platform-screen h1{
-        text-align:left;
+        font-size: 24px;
+        letter-spacing: 0.01em;
     }
     .platform-screen .mobile-waterdip{
         max-width: 90vw;
