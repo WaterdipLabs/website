@@ -123,6 +123,11 @@ export default [
     exact: true
   },
   {
+    path: '/PerformancePage/data',
+    component: ComponentCreator('/PerformancePage/data', 'fa3'),
+    exact: true
+  },
+  {
     path: '/PerformancePage/PerformancePage',
     component: ComponentCreator('/PerformancePage/PerformancePage', '204'),
     exact: true
