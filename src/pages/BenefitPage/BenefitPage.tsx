@@ -2,7 +2,7 @@ import React from "react";
 import './benefitpage.css';
 import clsx from "clsx";
 import BCard from "@site/src/components/BCard/BCard";
-import { benefits } from "./data";
+import { benefits } from "../../utils/data";
 import Fade from 'react-reveal/Fade';
 export default function BenefitPage(props): JSX.Element{
     return (

@@ -1,7 +1,7 @@
 import React from "react";
 import 'pure-react-carousel/dist/react-carousel.es.css';
 import FCard from "@site/src/components/FCard/FCard";
-import { features } from "./data";
+import { features } from "../../utils/data";
 import Carousel from 'react-grid-carousel'
 import styled from 'styled-components'
 import vector from '../../assets/Vector.png'

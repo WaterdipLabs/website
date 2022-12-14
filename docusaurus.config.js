@@ -57,17 +57,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Keep your ML Models Good as new Forever',
   tagline: 'Keep your ML Models Good as new Forever',
-  url: 'https://waterdipai.github.io',
-  baseUrl: '/',
-  trailingSlash: false,
+  url: 'https://WaterdipAI.github.io',
+  baseUrl: '/website/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'waterdipai', // Usually your GitHub org/user name.
-  projectName: 'waterdipai.github.io', // Usually your repo name.
+  organizationName: 'WaterdipAI', // Usually your GitHub org/user name.
+  projectName: 'website', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want

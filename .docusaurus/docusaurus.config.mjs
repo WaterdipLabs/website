@@ -6,14 +6,13 @@
 export default {
   "title": "Keep your ML Models Good as new Forever",
   "tagline": "Keep your ML Models Good as new Forever",
-  "url": "https://waterdipai.github.io",
-  "baseUrl": "/",
-  "trailingSlash": false,
+  "url": "https://WaterdipAI.github.io",
+  "baseUrl": "/website/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
-  "organizationName": "waterdipai",
-  "projectName": "waterdipai.github.io",
+  "organizationName": "WaterdipAI",
+  "projectName": "website",
   "i18n": {
     "defaultLocale": "en",
     "locales": [
