@@ -1,0 +1,52 @@
+.benefit-screen{
+    width: 100%;
+    padding-top: 20vh;
+    background: #040D21;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+}
+.benefit-text h1{
+    margin: auto;
+    text-align: center;
+    width: 60vw;
+    font-weight: 500;
+    color: white;
+}
+.span-bold{
+    font-weight: 800;
+}
+.ben-cards{
+    background-color: #040D21;
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 996px) {
+    .benefit-text h1{
+        font-size: 25px;
+        color: white;
+        width: 80vw;
+    }
+}
+@media only screen and (max-width: 600px){
+    .benefit-screen{
+        padding-top: 10vh;
+        align-items: center;
+        gap: 75px;
+    }
+    .benefit-text{
+        text-align:left;
+        align-items: center;
+        width: 80vw;
+    }
+    .benefit-text h1{
+        text-align:left;
+    }
+}

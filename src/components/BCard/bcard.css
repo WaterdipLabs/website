@@ -1,0 +1,46 @@
+.bcard{
+    width: 350px;
+    height: 310px;
+    gap:15px;
+    color: white;
+    background: linear-gradient(107.59deg, #4264E1 7.77%, #EE46FE 134.82%);
+    border-radius: 8px;
+    
+}
+.bcardbg{
+    background: #040D21;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    position: absolute;
+    translate: 15px 15px;
+    padding: 21px 30px;
+    width: 350px;
+    height: 310px;
+    border-radius: 7px;
+}
+.bcard h1{
+    font-size: 20px;
+    font-weight: 700;
+    background: linear-gradient(107.59deg, #4264E1 7.77%, #EE46FE 134.82%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.bcard p{
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+@media only screen and (max-width: 600px){
+    .bcard{
+        width: 290px;
+        height: 340px;
+    }
+    .bcardbg{
+        width: 290px;
+        height: 340px;
+    }
+}
