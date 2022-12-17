@@ -689,13 +689,13 @@
       },
       {
         "type": "jsx",
-        "permalink": "/website/FeaturePage/FeaturePage",
-        "source": "@site/src/pages/FeaturePage/FeaturePage.tsx"
+        "permalink": "/website/BenefitPage/BenefitPage",
+        "source": "@site/src/pages/BenefitPage/BenefitPage.tsx"
       },
       {
         "type": "jsx",
-        "permalink": "/website/BenefitPage/BenefitPage",
-        "source": "@site/src/pages/BenefitPage/BenefitPage.tsx"
+        "permalink": "/website/FeaturePage/FeaturePage",
+        "source": "@site/src/pages/FeaturePage/FeaturePage.tsx"
       },
       {
         "type": "jsx",
