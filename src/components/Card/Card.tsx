@@ -1,6 +1,5 @@
 import React from "react";
 import clsx from "clsx";
-import img from '../../assets/Rectpng.png';
 import './card.css';
 export default function Card(props): JSX.Element{
     return(
