@@ -40,6 +40,7 @@ export default {
     ]
   ],
   "themeConfig": {
+    "image": "img/waterdiplogo.png",
     "colorMode": {
       "defaultMode": "light",
       "disableSwitch": true,
