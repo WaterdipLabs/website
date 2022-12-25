@@ -56,18 +56,27 @@ h1{
     font-weight: 600;
     font-size: 16px;
 }
+.hero-buttons .request a{
+    color: #0C233A;
+}
 .request:hover{
     background: #0466C8;
     color: white;
     border: 2px solid transparent;
 }
+.request:hover a{
+    color: white;
+}
 .hero-image{
     overflow: visible;
 }
 .hero-image .desk{
-    width: 80vw;
-    height: 70vh;
+    height: auto;
+    width: auto;
+    max-width: 80vw;
+    max-height: 70vh;
     object-fit: contain;
+    image-resolution: from-image;
 }
 .hero-image .mobile{
     display: none;
@@ -123,7 +132,7 @@ h1{
     }
     .hero-image .mobile{
         display: block;
-        width: 50vw;
+        width: 20vw;
         object-fit: contain;
     }
 }

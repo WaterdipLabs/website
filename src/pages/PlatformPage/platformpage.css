@@ -21,6 +21,8 @@
 .platform-screen .desktop-waterdip{
     margin: auto;
     height: auto;
+    width: auto;
+    max-height: 80vh;
     max-width: 80vw;
     object-fit: contain;
 }
