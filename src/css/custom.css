@@ -101,6 +101,20 @@ a:hover{
   display: flex;
   gap: 10px;
 }
+.col:first-of-type{
+  flex-wrap:wrap;
+  flex: 3 0;
+}
+.col:first-of-type .footer__title{
+  margin: 0;
+  padding: 0;
+}
+.col:first-of-type .footer__items {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .footer{
   background: #040D21;
 }
@@ -129,6 +143,9 @@ a:hover{
 }
 .clean-btn{
   color: gray;
+}
+.footer__title{
+  font-family: 'Montserrat', sans-serif;
 }
 @media only screen and (max-width: 996px) {
   .navbar__inner{

@@ -51,7 +51,6 @@ export default function FeaturePage(props) {
                     {
                         breakpoint: 850,
                         cols: 1,
-                        
                     }
                 ]}
                     mobileBreakpoint={1}>
