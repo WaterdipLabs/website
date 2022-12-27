@@ -2,7 +2,7 @@
     width: 100%;
     background: linear-gradient(92.42deg, #4264E2 17.31%, #C84DF8 76.53%, #FFFFFF 109.42%);
     display: flex;
-    padding: 100px 30px;
+    padding: 50px 30px;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -11,9 +11,10 @@
 .signup h1{
     margin: auto;
     text-align: center;
-    width: 60vw;
+    width: 80vw;
     font-weight: 700;
     font-size: 30px;
+    line-height: 50px;
     color: white;
 }
 .signup-signup{
@@ -43,9 +44,10 @@
 @media only screen and (max-width: 996px){
     .signup h1{
         font-weight: 600;
-        font-size: 25px;
+        font-size: 22px;
         color: white;
         width: 80vw;
+        line-height: 30px;
     }
     .signup-signup{
         display: flex;

@@ -39,7 +39,7 @@ const CustomDot = styled.span`
 export default function FeaturePage(props) {
     return (
         <div className="feature-screen">
-            <h1 className="featuresh1">Our Features</h1>
+            <h1 className="featuresh1">Everything data science and ML teams need to stop firefighting</h1>
             <div className="lol">
                 <Carousel showDots arrowLeft={<CustomBtn type="left"><img src={vector1} alt="open"/></CustomBtn>}
         arrowRight={<CustomBtn type="right"><img src={vector} alt="close"/></CustomBtn>} dot={CustomDot} cols={3} rows={1} gap={50} responsiveLayout={[

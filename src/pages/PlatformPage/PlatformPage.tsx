@@ -7,7 +7,7 @@ import Fade from 'react-reveal/Fade';
 export default function PlatformPage(props): JSX.Element {
     return(
         <div className="platform-screen">
-            <h1>The <span className="span-bold">Waterdip</span> Platform</h1>
+            <h1><span className="span-bold">Monitoring</span> Across the ML Workflow</h1>
             <Fade bottom>
                 <img src={waterdip} className="desktop-waterdip" alt="platform"/>
                 <img src={waterdipMobile} className="mobile-waterdip" alt="platform" />

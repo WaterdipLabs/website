@@ -22,9 +22,8 @@ export default function Home(): JSX.Element {
       title={`Waterdip`}>
       <main>
         <HeroPage />
-        <PerformancePage/>
-        <BenefitPage />
         <PlatformPage />
+        <BenefitPage />
         <FeaturePage />
         <SignUp />
       </main>
