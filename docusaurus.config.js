@@ -117,8 +117,40 @@ const config = {
                 html: waterdip
               },
               {
-                html: `<p>Made with ❤️ in India</p>`
+                html: `<div class='logo-dip'><p>Waterdip Labs Pvt. Ltd</p><p>Made with ❤️ in India</p></div>`
               }
+            ],
+          },
+          {
+            items: [
+              {
+                label: 'Blog',
+                to: '/blog',
+              },
+            ],
+          },
+          {
+            items: [
+              {
+                label: 'Documents',
+                href: 'https://github.com/facebook/docusaurus',
+              },
+              {
+                html: followUs,
+              },
+            ],
+          },
+          {
+            items: [
+              {
+                label: 'Discord Community',
+                href: 'https://discord.gg/Qt4v3fjf',
+              }
+            ],
+          },
+          {
+            items: [
+
             ],
           },
           {
