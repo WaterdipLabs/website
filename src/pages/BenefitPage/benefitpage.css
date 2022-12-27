@@ -30,23 +30,25 @@
 }
 @media only screen and (max-width: 996px) {
     .benefit-text h1{
-        font-size: 25px;
+        font-size: 22px;
         color: white;
         width: 80vw;
+    }
+    .benefit-text{
+        text-align:center;
     }
 }
 @media only screen and (max-width: 600px){
     .benefit-screen{
-        padding-top: 10vh;
+        padding-top: 15vh;
         align-items: center;
-        gap: 75px;
+        gap: 25px;
     }
     .benefit-text{
-        text-align:left;
         align-items: center;
         width: 80vw;
     }
     .benefit-text h1{
-        text-align:left;
+        text-align:center;
     }
 }
