@@ -39,8 +39,20 @@ body{
 .navbar{
   height: unset;
   width: 100%;
-  background-color: black;
+  background-color: transparent;
   box-shadow: unset;
+}
+.n{
+  position: sticky;
+  top: 0;
+  height: 80px;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.n.colorer{
+  background-color: black;
 }
 .navbar__inner{
   justify-content: space-around;
