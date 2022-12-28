@@ -136,6 +136,9 @@ h1{
         width: 40vw;
         object-fit: contain;
     }
+    .hero-screen{
+        height: calc(100vh + 80px);
+    }
 }
 
 @media only screen and (max-width: 600px){
