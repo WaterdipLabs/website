@@ -105,7 +105,7 @@ const config = {
           {to: '/blog', label: 'Blog', position: 'right'},
           {
             type: 'html',
-            value: githubLogo,
+            value: githubStar,
             position:'right'
           }
           
