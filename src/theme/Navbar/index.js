@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState , useEffect} from 'react';
 import Navbar from '@theme-original/Navbar';
 
 
@@ -12,7 +12,9 @@ export default function NavbarWrapper(props) {
        setColorchange(false);
      }
   };
-  window.addEventListener('scroll', changeNavbarColor);
+  useEffect(function mount() {
+    window.addEventListener("scroll", changeNavbarColor);
+  });
   return (
     <>
       <div className={colorChange ? 'n colorer' : 'n'}>
