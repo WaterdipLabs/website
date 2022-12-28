@@ -3,6 +3,41 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/website/__docusaurus/debug',
+    component: ComponentCreator('/website/__docusaurus/debug', '4ec'),
+    exact: true
+  },
+  {
+    path: '/website/__docusaurus/debug/config',
+    component: ComponentCreator('/website/__docusaurus/debug/config', '765'),
+    exact: true
+  },
+  {
+    path: '/website/__docusaurus/debug/content',
+    component: ComponentCreator('/website/__docusaurus/debug/content', '369'),
+    exact: true
+  },
+  {
+    path: '/website/__docusaurus/debug/globalData',
+    component: ComponentCreator('/website/__docusaurus/debug/globalData', 'b38'),
+    exact: true
+  },
+  {
+    path: '/website/__docusaurus/debug/metadata',
+    component: ComponentCreator('/website/__docusaurus/debug/metadata', 'bd3'),
+    exact: true
+  },
+  {
+    path: '/website/__docusaurus/debug/registry',
+    component: ComponentCreator('/website/__docusaurus/debug/registry', '964'),
+    exact: true
+  },
+  {
+    path: '/website/__docusaurus/debug/routes',
+    component: ComponentCreator('/website/__docusaurus/debug/routes', '3f0'),
+    exact: true
+  },
+  {
     path: '/website/BenefitPage/BenefitPage',
     component: ComponentCreator('/website/BenefitPage/BenefitPage', '1e7'),
     exact: true

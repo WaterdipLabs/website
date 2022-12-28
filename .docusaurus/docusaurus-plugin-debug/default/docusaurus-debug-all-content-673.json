@@ -704,13 +704,13 @@
       },
       {
         "type": "jsx",
-        "permalink": "/website/PlatformPage/PlatformPage",
-        "source": "@site/src/pages/PlatformPage/PlatformPage.tsx"
+        "permalink": "/website/PerformancePage/PerformancePage",
+        "source": "@site/src/pages/PerformancePage/PerformancePage.tsx"
       },
       {
         "type": "jsx",
-        "permalink": "/website/PerformancePage/PerformancePage",
-        "source": "@site/src/pages/PerformancePage/PerformancePage.tsx"
+        "permalink": "/website/PlatformPage/PlatformPage",
+        "source": "@site/src/pages/PlatformPage/PlatformPage.tsx"
       }
     ]
   },
