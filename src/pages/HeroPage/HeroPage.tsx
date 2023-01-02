@@ -6,6 +6,8 @@ import dashMobile from '../../assets/DashMobile.png';
 
 export default function HeroPage(props): JSX.Element{
     return (
+        <>
+        <div className="background-screen"></div>
         <div className="hero-screen">
             <div className="hero-text">
                 <h1>Open Source ML Observability Platform</h1>
@@ -20,5 +22,6 @@ export default function HeroPage(props): JSX.Element{
                 <img src={dashMobile} className="mobile" alt="dashboard" />
             </div>
         </div>
+        </>
     )
 }

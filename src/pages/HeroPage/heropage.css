@@ -1,3 +1,11 @@
+.background-screen{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: calc(150vh + 80px);
+    background-color: #040D21;
+    z-index: -999;
+}
 .hero-screen{
     width: 100%;
     height: calc(150vh + 80px);

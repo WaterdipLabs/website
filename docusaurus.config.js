@@ -86,7 +86,7 @@ const config = {
     ({
       image: 'img/waterdiplogo.png',
       colorMode:{
-        defaultMode: 'light',
+        defaultMode: 'dark',
         disableSwitch: true,
         respectPrefersColorScheme: false
       },
