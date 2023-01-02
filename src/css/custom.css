@@ -33,9 +33,6 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
-body{
-  background-color: #040D21;
-}
 .navbar{
   height: unset;
   width: 100%;
@@ -123,6 +120,9 @@ a:hover{
 .footer__links{
   margin: 0;
   margin-bottom: 20px;
+}
+.row{
+  margin: 0;
 }
 .col{
   padding: 0;

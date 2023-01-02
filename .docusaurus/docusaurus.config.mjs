@@ -42,7 +42,7 @@ export default {
   "themeConfig": {
     "image": "img/waterdiplogo.png",
     "colorMode": {
-      "defaultMode": "light",
+      "defaultMode": "dark",
       "disableSwitch": true,
       "respectPrefersColorScheme": false
     },
@@ -145,7 +145,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2022 Waterdip Labs"
+      "copyright": "Copyright © 2023 Waterdip Labs"
     },
     "prism": {
       "theme": {
