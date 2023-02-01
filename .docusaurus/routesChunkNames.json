@@ -49,7 +49,7 @@
     },
     "config": "config---website-benefit-page-benefit-page-5-e-9-b7f"
   },
-  "/website/blog-0ca": {
+  "/website/blog-7f0": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---website-blog-83-e-2eb"
@@ -57,16 +57,7 @@
     "sidebar": "sidebar---website-blog-814-041",
     "items": [
       {
-        "content": "content---website-blog-766-2e6"
-      },
-      {
-        "content": "content---website-blogf-4-f-28b"
-      },
-      {
-        "content": "content---website-blog-871-7d2"
-      },
-      {
-        "content": "content---website-blog-925-080"
+        "content": "content---website-blogcc-3-3ec"
       }
     ],
     "metadata": "metadata---website-blog-6-d-8-737"
@@ -78,29 +69,13 @@
     },
     "archive": "archive---website-blog-archive-188-4d3"
   },
-  "/website/blog/first-blog-post-e77": {
+  "/website/blog/mlobs-237": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "plugin": "plugin---website-blog-83-e-2eb"
     },
     "sidebar": "sidebar---website-blog-814-041",
-    "content": "content---website-blog-first-blog-poste-27-27b"
-  },
-  "/website/blog/long-blog-post-1a7": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
-    "__context": {
-      "plugin": "plugin---website-blog-83-e-2eb"
-    },
-    "sidebar": "sidebar---website-blog-814-041",
-    "content": "content---website-blog-long-blog-post-736-b99"
-  },
-  "/website/blog/mdx-blog-post-508": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
-    "__context": {
-      "plugin": "plugin---website-blog-83-e-2eb"
-    },
-    "sidebar": "sidebar---website-blog-814-041",
-    "content": "content---website-blog-mdx-blog-post-593-81a"
+    "content": "content---website-blog-2023-02-01-what-is-ml-observability-8-a-7-f15"
   },
   "/website/blog/tags-a60": {
     "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
@@ -110,7 +85,7 @@
     "sidebar": "sidebar---website-blog-814-041",
     "tags": "tags---website-blog-tags-710-95e"
   },
-  "/website/blog/tags/docusaurus-c38": {
+  "/website/blog/tags/ml-observability-c60": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---website-blog-83-e-2eb"
@@ -118,73 +93,11 @@
     "sidebar": "sidebar---website-blog-814-041",
     "items": [
       {
-        "content": "content---website-blog-766-2e6"
-      },
-      {
-        "content": "content---website-blogf-4-f-28b"
-      },
-      {
-        "content": "content---website-blog-871-7d2"
-      },
-      {
-        "content": "content---website-blog-925-080"
+        "content": "content---website-blogcc-3-3ec"
       }
     ],
-    "tag": "tag---website-blog-tags-docusaurus-1-c-5-baf",
-    "listMetadata": "listMetadata---website-blog-tags-docusaurusb-81-64e"
-  },
-  "/website/blog/tags/facebook-c1c": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
-    "__context": {
-      "plugin": "plugin---website-blog-83-e-2eb"
-    },
-    "sidebar": "sidebar---website-blog-814-041",
-    "items": [
-      {
-        "content": "content---website-blog-766-2e6"
-      }
-    ],
-    "tag": "tag---website-blog-tags-facebookc-00-0d4",
-    "listMetadata": "listMetadata---website-blog-tags-facebook-238-c25"
-  },
-  "/website/blog/tags/hello-2b9": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
-    "__context": {
-      "plugin": "plugin---website-blog-83-e-2eb"
-    },
-    "sidebar": "sidebar---website-blog-814-041",
-    "items": [
-      {
-        "content": "content---website-blog-766-2e6"
-      },
-      {
-        "content": "content---website-blog-871-7d2"
-      }
-    ],
-    "tag": "tag---website-blog-tags-hello-422-95d",
-    "listMetadata": "listMetadata---website-blog-tags-helloac-6-89c"
-  },
-  "/website/blog/tags/hola-5aa": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
-    "__context": {
-      "plugin": "plugin---website-blog-83-e-2eb"
-    },
-    "sidebar": "sidebar---website-blog-814-041",
-    "items": [
-      {
-        "content": "content---website-blog-925-080"
-      }
-    ],
-    "tag": "tag---website-blog-tags-hola-807-505",
-    "listMetadata": "listMetadata---website-blog-tags-hola-300-f15"
-  },
-  "/website/blog/welcome-d8a": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
-    "__context": {
-      "plugin": "plugin---website-blog-83-e-2eb"
-    },
-    "sidebar": "sidebar---website-blog-814-041",
-    "content": "content---website-blog-welcomed-9-f-1c4"
+    "tag": "tag---website-blog-tags-ml-observabilityaca-8dd",
+    "listMetadata": "listMetadata---website-blog-tags-ml-observability-86-c-3b9"
   },
   "/website/FeaturePage/FeaturePage-0da": {
     "__comp": "__comp---site-src-pages-feature-page-feature-page-tsxda-3-3b0",

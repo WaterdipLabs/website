@@ -1,218 +1,43 @@
 {
   "blogPosts": [
     {
-      "id": "welcome",
+      "id": "mlobs",
       "metadata": {
-        "permalink": "/website/blog/welcome",
-        "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-26-welcome/index.md",
-        "source": "@site/blog/2021-08-26-welcome/index.md",
-        "title": "Welcome",
-        "description": "Docusaurus blogging features are powered by the blog plugin.",
-        "date": "2021-08-26T00:00:00.000Z",
-        "formattedDate": "August 26, 2021",
+        "permalink": "/website/blog/mlobs",
+        "source": "@site/blog/2023-02-01-what-is-ml-observability/index.md",
+        "title": "What is ML Observability?",
+        "description": "ML observability is the ability to measure and report on the performance of machine learning models in real time.",
+        "date": "2023-02-01T00:00:00.000Z",
+        "formattedDate": "February 1, 2023",
         "tags": [
           {
-            "label": "facebook",
-            "permalink": "/website/blog/tags/facebook"
-          },
-          {
-            "label": "hello",
-            "permalink": "/website/blog/tags/hello"
-          },
-          {
-            "label": "docusaurus",
-            "permalink": "/website/blog/tags/docusaurus"
+            "label": "ML Observability",
+            "permalink": "/website/blog/tags/ml-observability"
           }
         ],
-        "readingTime": 0.405,
+        "readingTime": 2.93,
         "hasTruncateMarker": false,
         "authors": [
           {
-            "name": "Sébastien Lorber",
-            "title": "Docusaurus maintainer",
-            "url": "https://sebastienlorber.com",
-            "imageURL": "https://github.com/slorber.png",
-            "key": "slorber"
-          },
-          {
-            "name": "Yangshun Tay",
-            "title": "Front End Engineer @ Facebook",
-            "url": "https://github.com/yangshun",
-            "imageURL": "https://github.com/yangshun.png",
-            "key": "yangshun"
+            "name": "Subhankar Biswas",
+            "title": "CO-FOUNDER, CEO",
+            "url": "https://www.linkedin.com/in/wsubhankarb/",
+            "imageURL": "https://github.com/subhankarb.png",
+            "key": "subhankar"
           }
         ],
         "frontMatter": {
-          "slug": "welcome",
-          "title": "Welcome",
+          "slug": "mlobs",
+          "title": "What is ML Observability?",
           "authors": [
-            "slorber",
-            "yangshun"
+            "subhankar"
           ],
           "tags": [
-            "facebook",
-            "hello",
-            "docusaurus"
+            "ML Observability"
           ]
-        },
-        "nextItem": {
-          "title": "MDX Blog Post",
-          "permalink": "/website/blog/mdx-blog-post"
         }
       },
-      "content": "[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).\r\n\r\nSimply add Markdown files (or folders) to the `blog` directory.\r\n\r\nRegular blog authors can be added to `authors.yml`.\r\n\r\nThe blog post date can be extracted from filenames, such as:\r\n\r\n- `2019-05-30-welcome.md`\r\n- `2019-05-30-welcome/index.md`\r\n\r\nA blog post folder can be convenient to co-locate blog post images:\r\n\r\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\r\n\r\nThe blog supports tags as well!\r\n\r\n**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config."
-    },
-    {
-      "id": "mdx-blog-post",
-      "metadata": {
-        "permalink": "/website/blog/mdx-blog-post",
-        "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-01-mdx-blog-post.mdx",
-        "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
-        "title": "MDX Blog Post",
-        "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
-        "date": "2021-08-01T00:00:00.000Z",
-        "formattedDate": "August 1, 2021",
-        "tags": [
-          {
-            "label": "docusaurus",
-            "permalink": "/website/blog/tags/docusaurus"
-          }
-        ],
-        "readingTime": 0.175,
-        "hasTruncateMarker": false,
-        "authors": [
-          {
-            "name": "Sébastien Lorber",
-            "title": "Docusaurus maintainer",
-            "url": "https://sebastienlorber.com",
-            "imageURL": "https://github.com/slorber.png",
-            "key": "slorber"
-          }
-        ],
-        "frontMatter": {
-          "slug": "mdx-blog-post",
-          "title": "MDX Blog Post",
-          "authors": [
-            "slorber"
-          ],
-          "tags": [
-            "docusaurus"
-          ]
-        },
-        "prevItem": {
-          "title": "Welcome",
-          "permalink": "/website/blog/welcome"
-        },
-        "nextItem": {
-          "title": "Long Blog Post",
-          "permalink": "/website/blog/long-blog-post"
-        }
-      },
-      "content": "Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).\r\n\r\n:::tip\r\n\r\nUse the power of React to create interactive blog posts.\r\n\r\n```js\r\n<button onClick={() => alert('button clicked!')}>Click me!</button>\r\n```\r\n\r\n<button onClick={() => alert('button clicked!')}>Click me!</button>\r\n\r\n:::"
-    },
-    {
-      "id": "long-blog-post",
-      "metadata": {
-        "permalink": "/website/blog/long-blog-post",
-        "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-29-long-blog-post.md",
-        "source": "@site/blog/2019-05-29-long-blog-post.md",
-        "title": "Long Blog Post",
-        "description": "This is the summary of a very long blog post,",
-        "date": "2019-05-29T00:00:00.000Z",
-        "formattedDate": "May 29, 2019",
-        "tags": [
-          {
-            "label": "hello",
-            "permalink": "/website/blog/tags/hello"
-          },
-          {
-            "label": "docusaurus",
-            "permalink": "/website/blog/tags/docusaurus"
-          }
-        ],
-        "readingTime": 2.05,
-        "hasTruncateMarker": true,
-        "authors": [
-          {
-            "name": "Endilie Yacop Sucipto",
-            "title": "Maintainer of Docusaurus",
-            "url": "https://github.com/endiliey",
-            "imageURL": "https://github.com/endiliey.png",
-            "key": "endi"
-          }
-        ],
-        "frontMatter": {
-          "slug": "long-blog-post",
-          "title": "Long Blog Post",
-          "authors": "endi",
-          "tags": [
-            "hello",
-            "docusaurus"
-          ]
-        },
-        "prevItem": {
-          "title": "MDX Blog Post",
-          "permalink": "/website/blog/mdx-blog-post"
-        },
-        "nextItem": {
-          "title": "First Blog Post",
-          "permalink": "/website/blog/first-blog-post"
-        }
-      },
-      "content": "This is the summary of a very long blog post,\r\n\r\nUse a `<!--` `truncate` `-->` comment to limit blog post size in the list view.\r\n\r\n<!--truncate-->\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
-    },
-    {
-      "id": "first-blog-post",
-      "metadata": {
-        "permalink": "/website/blog/first-blog-post",
-        "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-28-first-blog-post.md",
-        "source": "@site/blog/2019-05-28-first-blog-post.md",
-        "title": "First Blog Post",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
-        "date": "2019-05-28T00:00:00.000Z",
-        "formattedDate": "May 28, 2019",
-        "tags": [
-          {
-            "label": "hola",
-            "permalink": "/website/blog/tags/hola"
-          },
-          {
-            "label": "docusaurus",
-            "permalink": "/website/blog/tags/docusaurus"
-          }
-        ],
-        "readingTime": 0.12,
-        "hasTruncateMarker": false,
-        "authors": [
-          {
-            "name": "Gao Wei",
-            "title": "Docusaurus Core Team",
-            "url": "https://github.com/wgao19",
-            "image_url": "https://github.com/wgao19.png",
-            "imageURL": "https://github.com/wgao19.png"
-          }
-        ],
-        "frontMatter": {
-          "slug": "first-blog-post",
-          "title": "First Blog Post",
-          "authors": {
-            "name": "Gao Wei",
-            "title": "Docusaurus Core Team",
-            "url": "https://github.com/wgao19",
-            "image_url": "https://github.com/wgao19.png",
-            "imageURL": "https://github.com/wgao19.png"
-          },
-          "tags": [
-            "hola",
-            "docusaurus"
-          ]
-        },
-        "prevItem": {
-          "title": "Long Blog Post",
-          "permalink": "/website/blog/long-blog-post"
-        }
-      },
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
+      "content": "ML observability is the ability to measure and report on the performance of machine learning models in real time.\r\nIt enables organizations to improve model accuracy and reliability by measuring service quality continuously across pre-production and production phases of model life cycles.\r\n\r\n\r\n## **What could possibly go wrong?**\r\n\r\n### **Data Distribution**\r\n\r\n  In machine learning, the most basic assumption is that the distribution of data your model is exposed to changes over time.\r\n  For example, if you are working on an image recognition task and have been collecting images of cats for a few months,\r\n  and then suddenly start collecting images of dogs, it would be unwise to keep using the same model architecture. A model that has been trained on cats may not work very well on dogs\r\n  – even if there are some visual similarities between cats and dogs (big/pointy ears, tails, etc.).\r\n\r\n| ![ML Data Distribution](./data_distribution.png) |\r\n|:--:|\r\n|*Training Serving Data Distribution*|\r\n\r\n\r\n### **Training Serving Skew**\r\nA common use case for observability is when your model is working well in training but poorly in production.\r\nData scientists often find that the data their model was trained on is statistically different from the data they\r\nsee in production. This discrepancy can be due to any number of factors: the sample size of your training set\r\nmay not be enough to capture all possible conditions and edge cases; some of your features may be correlated;\r\nor there may be seasonal or event-driven variations in the data that weren't captured by your dataset.\r\n\r\n\r\n## **How to ensure that ML model is working correctly?**\r\n\r\n| ![ML Monitoring Lifecycle](./ml_monitoring_lifecycle.png) |\r\n|:--:|\r\n|*ML Monitoring Lifecycle*|\r\n\r\nML observability has to track the lifecycle of an ML model from its inception through training, validation and deployment.\r\nIt encompasses a broad set of capabilities, including the ability to:\r\n\r\n### Test & Pre-Production Validation\r\nIn order to ensure that model behavior conforms to your expectations, you need to monitor the model’s performance during Pre-Production validation.\r\nML observability tools allow you to track a model’s performance for each defined slice in the training data, so you can see how well it will generalize when deployed into production.\r\n\r\n### Monitor Production System\r\nWhen model is deployed to production, ML Observability keeps track of all of the input features and output predictions to provide proactive alerts.\r\nThese alerts can be used as early warning signs of potential issues with the model.\r\nThe user can also use these alerts to debug the model by checking whether any of these inputs have changed since they last checked,\r\nor if any of these outputs are not being predicted correctly.\r\n\r\n### Root Cause Analysis\r\nWhen a model in production is failing to perform as expected, the first step toward a resolution is to understand what happened.\r\nThis determination can be difficult because the model may have been trained and tested on different data than what it's operating on now,\r\nor it may have been trained with different hyperparameters than those being used now.\r\nIn both cases, the network weights could have changed substantially from their training parameters, meaning that a new best-fit line wouldn't exist.\r\n\r\nWith the help of Observability platform to monitor your models in production, you'll be able to determine exactly which distributions in input data,\r\nfeatures, ground truth/proxy metrics have contributed to a change in the model’s performance by combining your\r\nhistorical data with your model's current performance. The result of this analysis will let you pinpoint the cause\r\nof the problem and continue on to resolving it."
     }
   ]
 }

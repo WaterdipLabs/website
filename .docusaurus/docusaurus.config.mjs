@@ -30,8 +30,7 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
-          "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "showReadingTime": true
         },
         "theme": {
           "customCss": "K:\\React Projects\\website\\website\\src\\css\\custom.css"
@@ -65,7 +64,7 @@ export default {
         },
         {
           "type": "html",
-          "value": "<iframe src=\"https://ghbtns.com/github-btn.html?user=twbs&repo=bootstrap&type=star&count=true&size=large\" frameborder=\"0\" scrolling=\"0\" width=\"170\" height=\"30\" title=\"GitHub\"></iframe>\n",
+          "value": "<iframe src=\"https://ghbtns.com/github-btn.html?user=waterdipai&repo=waterdip&type=star&count=true&size=large\" frameborder=\"0\" scrolling=\"0\" width=\"170\" height=\"30\" title=\"GitHub\"></iframe>\n",
           "position": "right"
         }
       ],

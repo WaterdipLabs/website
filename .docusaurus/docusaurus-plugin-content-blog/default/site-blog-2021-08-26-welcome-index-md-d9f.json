@@ -51,6 +51,10 @@
       "docusaurus"
     ]
   },
+  "prevItem": {
+    "title": "What is ML Observability?",
+    "permalink": "/website/blog/mlobs"
+  },
   "nextItem": {
     "title": "MDX Blog Post",
     "permalink": "/website/blog/mdx-blog-post"
