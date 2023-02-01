@@ -34,11 +34,7 @@
     ]
   },
   "prevItem": {
-    "title": "Welcome",
-    "permalink": "/website/blog/welcome"
-  },
-  "nextItem": {
-    "title": "Long Blog Post",
-    "permalink": "/website/blog/long-blog-post"
+    "title": "What is ML Observability?",
+    "permalink": "/website/blog/mlobs"
   }
 }
