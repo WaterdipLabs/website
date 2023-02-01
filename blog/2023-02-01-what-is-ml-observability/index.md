@@ -10,6 +10,7 @@ tags: [ML Observability]
 ML observability is the ability to measure and report on the performance of machine learning models in real time.
 It enables organizations to improve model accuracy and reliability by measuring service quality continuously across pre-production and production phases of model life cycles.
 
+<!-- truncate -->
 
 ## **What could possibly go wrong?**
 
