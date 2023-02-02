@@ -37,7 +37,7 @@ const config = {
   title: 'Keep your ML Models Good as new Forever',
   tagline: 'Keep your ML Models Good as new Forever',
   url: 'https://WaterdipAI.github.io',
-  baseUrl: '/website/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
