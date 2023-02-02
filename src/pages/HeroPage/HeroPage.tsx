@@ -1,7 +1,7 @@
 import React from "react";
 import './heropage.css';
 import clsx from "clsx";
-import dash from '../../assets/dashboard.png';
+import dash from '../../assets/Dashboard.png';
 import dashMobile from '../../assets/DashMobile.png';
 
 export default function HeroPage(props): JSX.Element{
