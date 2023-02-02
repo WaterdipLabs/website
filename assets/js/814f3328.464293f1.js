@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwaterdip=self.webpackChunkwaterdip||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"What is ML Observability?","permalink":"/blog/mlobs"}]}')}}]);
