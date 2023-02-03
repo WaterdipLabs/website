@@ -212,6 +212,14 @@ a:hover{
     padding-left: 5vw;
     justify-content: space-between;
   }
+  .col:first-of-type{
+    flex-wrap:wrap;
+    flex: unset;
+  }
+  .col:nth-of-type(4){
+    flex-wrap:wrap;
+    flex: unset;
+  }
   .footer .col:nth-of-type(2), .footer .col:nth-of-type(3),.footer .col:nth-of-type(4), .footer .col:nth-of-type(5){
     display: none;
   }
