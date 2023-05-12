@@ -1,195 +1,144 @@
 {
-  "/website/__docusaurus/debug-4ec": {
+  "/__docusaurus/debug-00b": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---website-docusaurus-debug-1-eb-aaa"
+      "plugin": "plugin---docusaurus-debug-3-b-7-c62"
     }
   },
-  "/website/__docusaurus/debug/config-765": {
+  "/__docusaurus/debug/config-a21": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---website-docusaurus-debug-1-eb-aaa"
+      "plugin": "plugin---docusaurus-debug-3-b-7-c62"
     }
   },
-  "/website/__docusaurus/debug/content-369": {
+  "/__docusaurus/debug/content-8b5": {
     "__comp": "__comp---theme-debug-contentba-8-ce7",
     "__context": {
-      "plugin": "plugin---website-docusaurus-debug-1-eb-aaa"
+      "plugin": "plugin---docusaurus-debug-3-b-7-c62"
     },
-    "allContent": "allContent---website-docusaurus-debug-content-246-d4d"
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
   },
-  "/website/__docusaurus/debug/globalData-b38": {
+  "/__docusaurus/debug/globalData-088": {
     "__comp": "__comp---theme-debug-global-dataede-0fa",
     "__context": {
-      "plugin": "plugin---website-docusaurus-debug-1-eb-aaa"
+      "plugin": "plugin---docusaurus-debug-3-b-7-c62"
     }
   },
-  "/website/__docusaurus/debug/metadata-bd3": {
+  "/__docusaurus/debug/metadata-c27": {
     "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
     "__context": {
-      "plugin": "plugin---website-docusaurus-debug-1-eb-aaa"
+      "plugin": "plugin---docusaurus-debug-3-b-7-c62"
     }
   },
-  "/website/__docusaurus/debug/registry-964": {
+  "/__docusaurus/debug/registry-93e": {
     "__comp": "__comp---theme-debug-registry-679-501",
     "__context": {
-      "plugin": "plugin---website-docusaurus-debug-1-eb-aaa"
+      "plugin": "plugin---docusaurus-debug-3-b-7-c62"
     }
   },
-  "/website/__docusaurus/debug/routes-3f0": {
+  "/__docusaurus/debug/routes-0d3": {
     "__comp": "__comp---theme-debug-routes-946-699",
     "__context": {
-      "plugin": "plugin---website-docusaurus-debug-1-eb-aaa"
+      "plugin": "plugin---docusaurus-debug-3-b-7-c62"
     }
   },
-  "/website/BenefitPage/BenefitPage-1e7": {
+  "/BenefitPage/BenefitPage-d96": {
     "__comp": "__comp---site-src-pages-benefit-page-benefit-page-tsxa-2-e-524",
     "__context": {
-      "plugin": "plugin---website-benefit-page-benefit-pagef-7-b-997"
+      "plugin": "plugin---benefit-page-benefit-page-5-c-4-331"
     },
-    "config": "config---website-benefit-page-benefit-page-5-e-9-b7f"
+    "config": "config---benefit-page-benefit-page-5-e-9-9c2"
   },
-  "/website/blog-7f0": {
+  "/blog-d1e": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
-      "plugin": "plugin---website-blog-83-e-2eb"
+      "plugin": "plugin---blogdac-5c3"
     },
-    "sidebar": "sidebar---website-blog-814-041",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---website-blogcc-3-3ec"
+        "content": "content---blogcc-3-f41"
       }
     ],
-    "metadata": "metadata---website-blog-6-d-8-737"
+    "metadata": "metadata---blogb-2-b-df1"
   },
-  "/website/blog/archive-08c": {
+  "/blog/archive-e87": {
     "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
     "__context": {
-      "plugin": "plugin---website-blog-83-e-2eb"
+      "plugin": "plugin---blogdac-5c3"
     },
-    "archive": "archive---website-blog-archive-188-4d3"
+    "archive": "archive---blog-archiveb-2-f-393"
   },
-  "/website/blog/mlobs-237": {
+  "/blog/mlobs-d74": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---website-blog-83-e-2eb"
+      "plugin": "plugin---blogdac-5c3"
     },
-    "sidebar": "sidebar---website-blog-814-041",
-    "content": "content---website-blog-mlobs-8-a-7-2e1"
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-mlobs-8-a-7-8b3"
   },
-  "/website/blog/tags-a60": {
+  "/blog/tags-c61": {
     "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
     "__context": {
-      "plugin": "plugin---website-blog-83-e-2eb"
+      "plugin": "plugin---blogdac-5c3"
     },
-    "sidebar": "sidebar---website-blog-814-041",
-    "tags": "tags---website-blog-tags-710-95e"
+    "sidebar": "sidebar---blog-814-8ac",
+    "tags": "tags---blog-tagsa-70-da2"
   },
-  "/website/blog/tags/ml-observability-c60": {
+  "/blog/tags/ml-observability-dcf": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "plugin---website-blog-83-e-2eb"
+      "plugin": "plugin---blogdac-5c3"
     },
-    "sidebar": "sidebar---website-blog-814-041",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---website-blogcc-3-3ec"
+        "content": "content---blogcc-3-f41"
       }
     ],
-    "tag": "tag---website-blog-tags-ml-observabilityaca-8dd",
-    "listMetadata": "listMetadata---website-blog-tags-ml-observability-86-c-3b9"
+    "tag": "tag---blog-tags-ml-observability-947-861",
+    "listMetadata": "listMetadata---blog-tags-ml-observability-437-752"
   },
-  "/website/FeaturePage/FeaturePage-0da": {
+  "/FeaturePage/FeaturePage-902": {
     "__comp": "__comp---site-src-pages-feature-page-feature-page-tsxda-3-3b0",
     "__context": {
-      "plugin": "plugin---website-benefit-page-benefit-pagef-7-b-997"
+      "plugin": "plugin---benefit-page-benefit-page-5-c-4-331"
     },
-    "config": "config---website-benefit-page-benefit-page-5-e-9-b7f"
+    "config": "config---benefit-page-benefit-page-5-e-9-9c2"
   },
-  "/website/HeroPage/HeroPage-ae9": {
+  "/HeroPage/HeroPage-93e": {
     "__comp": "__comp---site-src-pages-hero-page-hero-page-tsx-9-fb-75e",
     "__context": {
-      "plugin": "plugin---website-benefit-page-benefit-pagef-7-b-997"
+      "plugin": "plugin---benefit-page-benefit-page-5-c-4-331"
     },
-    "config": "config---website-benefit-page-benefit-page-5-e-9-b7f"
+    "config": "config---benefit-page-benefit-page-5-e-9-9c2"
   },
-  "/website/markdown-page-edc": {
+  "/markdown-page-d13": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "plugin---website-benefit-page-benefit-pagef-7-b-997"
+      "plugin": "plugin---benefit-page-benefit-page-5-c-4-331"
     },
-    "content": "content---website-markdown-page-393-21a"
+    "content": "content---markdown-page-393-028"
   },
-  "/website/PerformancePage/PerformancePage-3a1": {
+  "/PerformancePage/PerformancePage-562": {
     "__comp": "__comp---site-src-pages-performance-page-performance-page-tsx-4-f-0-b94",
     "__context": {
-      "plugin": "plugin---website-benefit-page-benefit-pagef-7-b-997"
+      "plugin": "plugin---benefit-page-benefit-page-5-c-4-331"
     },
-    "config": "config---website-benefit-page-benefit-page-5-e-9-b7f"
+    "config": "config---benefit-page-benefit-page-5-e-9-9c2"
   },
-  "/website/PlatformPage/PlatformPage-800": {
+  "/PlatformPage/PlatformPage-593": {
     "__comp": "__comp---site-src-pages-platform-page-platform-page-tsx-57-a-8b2",
     "__context": {
-      "plugin": "plugin---website-benefit-page-benefit-pagef-7-b-997"
+      "plugin": "plugin---benefit-page-benefit-page-5-c-4-331"
     },
-    "config": "config---website-benefit-page-benefit-page-5-e-9-b7f"
+    "config": "config---benefit-page-benefit-page-5-e-9-9c2"
   },
-  "/website/docs-932": {
-    "__comp": "__comp---theme-doc-page-1-be-9be",
-    "__context": {
-      "plugin": "plugin---website-docsaef-01a"
-    },
-    "versionMetadata": "versionMetadata---website-docs-935-533"
-  },
-  "/website/docs/category/tutorial---basics-e8c": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---website-docs-category-tutorial-basicsf-3-b-0ff"
-  },
-  "/website/docs/category/tutorial---extras-2d7": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---website-docs-category-tutorial-extras-46-b-5c7"
-  },
-  "/website/docs/intro-345": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---website-docs-intro-0-e-3-e94"
-  },
-  "/website/docs/tutorial-basics/congratulations-973": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---website-docs-tutorial-basics-congratulations-822-162"
-  },
-  "/website/docs/tutorial-basics/create-a-blog-post-b34": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---website-docs-tutorial-basics-create-a-blog-post-533-242"
-  },
-  "/website/docs/tutorial-basics/create-a-document-733": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---website-docs-tutorial-basics-create-a-document-1-e-4-8bc"
-  },
-  "/website/docs/tutorial-basics/create-a-page-348": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---website-docs-tutorial-basics-create-a-page-5-c-8-cd6"
-  },
-  "/website/docs/tutorial-basics/deploy-your-site-eb5": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---website-docs-tutorial-basics-deploy-your-sitef-55-9cc"
-  },
-  "/website/docs/tutorial-basics/markdown-features-f41": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---website-docs-tutorial-basics-markdown-features-18-c-1d1"
-  },
-  "/website/docs/tutorial-extras/manage-docs-versions-0ad": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---website-docs-tutorial-extras-manage-docs-versionsdff-962"
-  },
-  "/website/docs/tutorial-extras/translate-your-site-dd5": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---website-docs-tutorial-extras-translate-your-sitee-44-3d7"
-  },
-  "/website/-291": {
+  "/-301": {
     "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
     "__context": {
-      "plugin": "plugin---website-benefit-page-benefit-pagef-7-b-997"
+      "plugin": "plugin---benefit-page-benefit-page-5-c-4-331"
     },
-    "config": "config---website-benefit-page-benefit-page-5-e-9-b7f"
+    "config": "config---benefit-page-benefit-page-5-e-9-9c2"
   }
 }

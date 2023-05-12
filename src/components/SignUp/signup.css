@@ -41,6 +41,7 @@
     font-size: 12px;
     font-weight: 500;
     border: none;
+    cursor: pointer;
 }
 .sending{
     font-size: 16px;

@@ -1,5 +1,5 @@
 {
-  "permalink": "/website/blog/mlobs",
+  "permalink": "/blog/mlobs",
   "source": "@site/blog/2023-02-01-what-is-ml-observability/index.md",
   "title": "What is ML Observability?",
   "description": "ML observability is the ability to measure and report on the performance of machine learning models in real time.",
@@ -8,7 +8,7 @@
   "tags": [
     {
       "label": "ML Observability",
-      "permalink": "/website/blog/tags/ml-observability"
+      "permalink": "/blog/tags/ml-observability"
     }
   ],
   "readingTime": 2.945,
