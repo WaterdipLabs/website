@@ -6,13 +6,14 @@
 export default {
   "title": "Keep your ML Models Good as new Forever",
   "tagline": "Keep your ML Models Good as new Forever",
-  "url": "https://WaterdipAI.github.io",
-  "baseUrl": "/website/",
+  "url": "https://www.waterdip.ai",
+  "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
-  "organizationName": "WaterdipAI",
+  "organizationName": "waterdipai",
   "projectName": "website",
+  "trailingSlash": false,
   "i18n": {
     "defaultLocale": "en",
     "locales": [
@@ -25,15 +26,16 @@ export default {
     [
       "classic",
       {
-        "docs": {
-          "sidebarPath": "K:\\React Projects\\website\\website\\sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
-        },
+        "docs": false,
         "blog": {
           "showReadingTime": true
         },
         "theme": {
-          "customCss": "K:\\React Projects\\website\\website\\src\\css\\custom.css"
+          "customCss": "K:\\Work\\website\\src\\css\\custom.css"
+        },
+        "gtag": {
+          "trackingID": "G-HB956GBBR3",
+          "anonymizeIP": true
         }
       }
     ]
